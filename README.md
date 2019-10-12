@@ -1,7 +1,8 @@
+# PLEASE NOTE
+
+This is a Laravel 6 compatible package of the [Gloudemans\Notify](https://packagist.org/packages/gloudemans/notify) package.
+
 # Laravel Notify
-[![Build Status](https://travis-ci.org/Crinsane/LaravelNotify.svg?branch=master)](https://travis-ci.org/Crinsane/LaravelNotify)
-[![Total Downloads](https://poser.pugx.org/gloudemans/notify/downloads)](https://packagist.org/packages/gloudemans/notify)
-[![License](https://poser.pugx.org/gloudemans/notify/license)](https://packagist.org/packages/gloudemans/notify)
 
 Some helpful tools for getting handy flash notifications on your website
 Out of the box support for: Toastr, SweetAlert, Bootbox and native notifications!
@@ -10,7 +11,7 @@ Out of the box support for: Toastr, SweetAlert, Bootbox and native notifications
 
 Install the package through [Composer](http://getcomposer.org/). Require this package with Composer using the following command:
 
-    composer require gloudemans/notify
+    composer require gally90/laravel-notify
 
 Next you need to register the package in Laravel by adding the service provider.
 To do this open your `config/app.php` file and add a new line to the `providers` array:
