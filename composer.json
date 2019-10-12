@@ -1,0 +1,29 @@
+{
+    "name": "gally90/laravel-notify",
+    "description": "Laravel Notifications",
+    "keywords": ["laravel", "notifications", "flashnotifictions", "notify"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Liam Gallagher",
+            "email": "liam@appliam.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/support": "^6.1",
+        "illuminate/session": "^6.1",
+        "illuminate/view": "^6.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "mockery/mockery": "^0.9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gloudemans\\Notify\\": "src"
+        }
+    }
+}
+
+
